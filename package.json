@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "111",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lh",
+  "license": "ISC",
+  "dependencies": {
+    "confusion": "0.1.1",
+    "escodegen": "2.0.0",
+    "esprima": "4.0.1",
+    "javascript-obfuscator": "3.0.0",
+    "uglify-js": "3.13.8"
+  }
+}
