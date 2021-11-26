@@ -10,13 +10,13 @@ const options = {
 
     identifierNamesGenerator: 'mangled',
 
-    identifiersPrefix: 'lh', //变量名加上前缀
+    identifiersPrefix: 'l', //变量名加上前缀
 
     controlFlowFlattening: true, //控制流平坦化(默认0.75)
     controlFlowFlatteningThreshold: 0.06, //参数来控制平坦化的比例
 
     deadCodeInjection: true, //僵尸代码注入 默认0.4
-    deadCodeInjectionThreshold: 0.06,  //参数来控制注入比例，范围为0~1
+    deadCodeInjectionThreshold: 0.07,  //参数来控制注入比例，范围为0~1
 }
 
 
